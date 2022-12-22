@@ -1,0 +1,415 @@
+02:59:25	Mikhail Balari:	Hola, buenas noches.!!
+03:01:36	Juan Pablo Garnica:	si si
+03:01:40	Lucrecia Ponce:	sip
+03:02:44	Cristian Colavita:	entonces si tine id ,e s mas facil
+03:02:54	Franco Bustos:	pero no lo recomienda
+03:03:00	[TUTORA] Solange Mac Intyre:	Si, Creis pero no se recomienda
+03:03:01	[Tutor] Jonatan Pereyra:	No es recomendable el uso de id para estilizar
+03:03:02	Franco Bustos:	es para java que lo recomineda
+03:03:36	Evelin Spina:	también necesito el formulario de la clase dos!
+03:04:11	Pablo Galluccio:	yo también lo necesito, el formulario de la clase 2
+03:04:43	Maximiliano Colella:	que estaba el listado de etiqurtas.
+03:04:51	[TUTORA] Solange Mac Intyre:	Hoy después pasa el link correcto.
+03:05:01	Maximiliano Colella:	o,k.
+03:05:13	[TUTORA] Solange Mac Intyre:	Antes de que termine la clase se lo recordamos, tranqui.
+03:05:50	Carla Ríos:	no entiendo en que casos de la creación del sitio, se usa
+03:06:12	[Tutor] Jonatan Pereyra:	Que cosa Carla?
+03:06:22	Carla Ríos:	lo que esta explicando
+03:06:45	[TUTORA] Solange Mac Intyre:	Estamos repasando un poco la especificidad
+03:07:34	Julian Bessopianetto:	si profe
+03:07:35	[TUTORA] Solange Mac Intyre:	Hay que tenerlo en cuenta en todos los proyectos para no hacernos lío cuando queremos aplicar ciertas propiedades a ciertos eleentos
+03:07:36	Mikhail Balari:	si
+03:07:37	Franco Bustos:	no entendi
+03:07:38	Marcos del Campo:	si
+03:07:40	Franco Bustos:	perdon
+03:07:42	Jose Rodriguez:	sii
+03:07:55	Cristian Colavita:	yo estoy re-mirando todo y no llgue a la clase 3 por tnato veo sin entender,(por ahora)
+03:08:05	Carla Ríos:	idem
+03:08:10	Maximiliano Colella:	idem.
+03:08:17	Camila Battaggi:	¿Qué diferencia hay entre class y id? ¿No cumplen funciones similares?
+03:08:34	Marcos del Campo:	el id es unico
+03:08:36	Facundo Rey:	dni=id
+03:08:37	Pablo Galluccio:	id es código único y podes usar 2
+03:08:39	Franco Bustos:	Class se puede poner mas de uno
+03:08:40	Pablo Galluccio:	se usa mas para java
+03:08:40	Cristian Colavita:	eso
+03:08:41	Maximiliano Jarzynski:	El id es unico, el class pdes usarlo mas de una vez
+03:08:43	Franco Bustos:	id es unico
+03:08:44	Marcos del Campo:	se usa una sola vez
+03:08:46	Lucio Barberis:	ID es único, las clases pueden ser varios
+03:08:49	Lucio Barberis:	varias
+03:08:52	Julian Bessopianetto:	clase es algo que se puede repetir varias veces
+03:08:52	Camila Battaggi:	Gracias!
+03:08:54	Julian Bessopianetto:	el id es unico
+03:08:55	Franco Bustos:	se recomienda para javaS el id
+03:08:59	Carlos Nuñez:	La diferencia entre una ID y una clase es que una ID se puede usar para identificar un solo elemento, mientras que una clase se puede usar para agrupar más de uno
+03:09:00	Verónica Panigatti:	Es como el individuo y la especie  y la familia¨'
+03:09:04	Lucio Barberis:	además el id es usado en JavaScript, no es recomendado que nosotros lo usemos
+03:10:16	[Tutor] Jonatan Pereyra:	Excelente!
+03:10:28	Cristian Colavita:	pregunta porque la etiqueta ahi no va entre mayor y menor ejemplo <p>
+03:11:00	Verónica Panigatti:	Es porque eesta en la carpeta de css?
+03:11:03	Facundo Rey:	por que es css
+03:11:41	Mikhail Balari:	perfecto
+03:11:47	Nestor D HEREDIA:	si
+03:11:53	Lucrecia Ponce:	bien
+03:11:56	emanuel aguero:	no entendí que es foo y bar, o para que se usan
+03:12:06	Carlos Nuñez:	son solo nombres
+03:12:07	Federico Beluardo:	claro foo o bar es un ejemplo}
+03:12:08	[TUTORA] Solange Mac Intyre:	Son nombres de clases cualquiera
+03:12:13	Pablo Galluccio:	foo y bar es un nombre X que le das a las clases
+03:12:14	Cristian Colavita:	si yo en el css cito una etiqueta porque tengo que hacerlo sin el <> por eso preguntaba
+03:12:18	Pablo Galluccio:	podes llamarlas como quieras a las clases
+03:12:21	Cristian Colavita:	porque ahi esta citando un parrafo
+03:12:31	Pablo Galluccio:	después cuando lo coloques en css tenes que poner el mismo nombre que usaste en class
+03:12:32	[TUTORA] Solange Mac Intyre:	Cris es la de apertura
+03:12:41	Cristian Colavita:	ahhh tata
+03:12:42	[TUTORA] Solange Mac Intyre:	En esa van los atributos
+03:13:00	[TUTORA] Solange Mac Intyre:	en la linea 19 esta la del cierre del p
+03:13:10	Cristian Colavita:	gracias solange! :)
+03:13:22	Facundo Rey:	guion bajo no se puede?
+03:13:51	[Tutor] Jonatan Pereyra:	No se usa tanto Facu
+03:14:00	Facundo Rey:	a ok
+03:14:01	[Tutor] Jonatan Pereyra:	Se puede, pero no se usa tanto para css
+03:14:03	Cristian Colavita:	pregunto lo mismo (pero se pued eusar?
+03:14:03	Verónica Panigatti:	Profe no entiendo en que lugares se puede usar mayúscula...
+03:14:20	Marcos del Campo:	en css
+03:14:32	[TUTORA] Solange Mac Intyre:	La primera letra de cada palabra del nombre de la clase
+03:14:40	Carlos Nuñez:	la primera siempre con minuscula
+03:14:41	Marcos del Campo:	en HTML no!
+03:14:45	Verónica Panigatti:	Ah para nombrar la clase
+03:14:47	Marcos del Campo:	solo css
+03:14:55	Facundo Rey:	perfecto
+03:14:55	[TUTORA] Solange Mac Intyre:	Si! la primera palabra minúscula
+03:15:04	Carlos Nuñez:	gracias
+03:15:11	Verónica Panigatti:	perfecto!
+03:15:29	Verónica Panigatti:	Claro yo había descartado las mayusculas...
+03:16:47	Maximiliano Jarzynski:	Como los producos de ML, que aparece la foto el precio y comprar
+03:17:34	Federico Beluardo:	SI
+03:17:36	Marcos del Campo:	si!
+03:17:36	Gabriel Bulacio:	sisi
+03:17:36	Juan Pablo Garnica:	si Profe
+03:18:34	Federico Beluardo:	si con fondo blanco
+03:19:18	Marcos del Campo:	div
+03:19:20	Gabriel Bulacio:	v
+03:19:20	Patricio Despontin:	tarjeta
+03:19:21	Mikhail Balari:	div
+03:19:21	Maximiliano Colella:	div
+03:19:21	martin videla:	el div
+03:19:21	Carlos Nuñez:	el div
+03:19:22	Franco Bustos:	el div
+03:19:22	Jose Rodriguez:	div
+03:19:23	Gabriel Bulacio:	div
+03:19:23	Franco Bustos:	sisi
+03:19:23	Facundo Rey:	div
+03:20:49	Carlos Nuñez:	piola
+03:20:56	Franco Bustos:	cada clase
+03:21:04	Franco Bustos:	la modificamos desde el css
+03:21:13	Franco Bustos:	por separado?
+03:21:15	Carlos Nuñez:	si
+03:21:18	Carlos Nuñez:	creo
+03:21:19	Juan Pablo Garnica:	si
+03:21:36	Franco Bustos:	o modificando la class tarjeta se modifica todo por cascada?
+03:21:40	Verónica Panigatti:	Esa clase se puede repetir en otro bloque?
+03:21:56	Carlos Nuñez:	las clases se pueden repetir
+03:21:57	Carlos Nuñez:	creo
+03:21:58	[TUTORA] Solange Mac Intyre:	Se puede repetir la clase
+03:22:18	Verónica Panigatti:	👍
+03:22:21	Franco Bustos:	en cada lugar que haya esa clase va a repetir el código de css no?
+03:22:24	Maximiliano Jarzynski:	Si tenes otra tarjeta usas lo mismo, cambias el contenid
+03:22:31	Franco Bustos:	Corta!
+03:22:31	[TUTORA] Solange Mac Intyre:	Seguramente haya más de una tarjeta en tu sitio, todas van a tener esa misma estructura
+03:22:33	Juan Pablo Garnica:	si si
+03:22:35	Marcos del Campo:	son los 250
+03:22:36	Miguel Mamani:	250
+03:22:55	Franco Bustos:	profe
+03:23:00	Franco Bustos:	podemos encuadrarlo
+03:23:02	Franco Bustos:	porfa
+03:23:02	Rodrigo Sdrigotti:	pero no se puede usar herencia desde la clase directamente?
+03:23:28	[TUTORA] Solange Mac Intyre:	Si pero no sería BEM
+03:23:30	Rodrigo Sdrigotti:	ah ok gracias
+03:23:44	Marcos del Campo:	si no especificas el ancho de la imagen no te lo toma por herencia?
+03:23:53	Rodrigo Sdrigotti:	claro
+03:23:58	Rodrigo Sdrigotti:	gracias
+03:24:08	Carlos Nuñez:	se usa actualmente Bem
+03:24:27	Marcos del Campo:	lo tapa la imagen
+03:24:31	Rodrigo Sdrigotti:	por la img
+03:24:47	Maximiliano Jarzynski:	hidden
+03:24:48	Rodrigo Sdrigotti:	hid
+03:24:54	Carlos Nuñez:	joya
+03:25:07	Verónica Panigatti:	hermoso!
+03:26:49	Facundo Rey:	centrarlo
+03:27:25	Franco Bustos:	como centramos profe?
+03:28:20	Facundo Rey:	ok
+03:28:46	Giovanni Gally:	como era para dividir la pantalla profe?
+03:29:15	Maximiliano Jarzynski:	Para centrar supongo que con flex?
+03:29:20	[Tutor] Jonatan Pereyra:	Sep
+03:29:23	[Tutor] Jonatan Pereyra:	Pero falta un poquito
+03:29:32	Franco Bustos:	por ahora vamos armando la pagina
+03:29:35	Franco Bustos:	yendo para abajo
+03:29:37	Franco Bustos:	no importa
+03:29:39	Franco Bustos:	el detalle
+03:29:43	Franco Bustos:	es asi?
+03:29:55	JuniorYepes:	En bloque o flex?
+03:30:20	[Tutor] Jonatan Pereyra:	Claro Fran
+03:30:32	Franco Bustos:	genial
+03:30:35	[Tutor] Jonatan Pereyra:	Recien ahora vamos bien algo de como estilizarlo de a poquito acomodando elementos
+03:30:38	[TUTORA] Solange Mac Intyre:	1
+03:30:40	[Tutor] Jonatan Pereyra:	1
+03:32:51	Verónica Panigatti:	pero el cartelito lo panes desde el código no?
+03:33:42	Mikhail Balari:	HAce falta dejar la class original y agregarle la misma con el modificador? = tarjeta__img tarjeta--modificador? o solo puede ir tarjeta --modificador?
+03:34:16	[Tutor] Jonatan Pereyra:	Ahora va a quedar mas claro eso Mikhail
+03:34:22	Mikhail Balari:	ok
+03:34:58	Ronaldo Chullunucy:	al poner los nombres a las clases, es obligatorio que estea en ingles o
+03:35:21	Carlos Nuñez:	no
+03:36:22	Rodrigo Sdrigotti:	no
+03:36:29	Franco Bustos:	Profe al botón le podemos poner una acción? Es decir por ejemplo que el botón nos lleve a una parte de nuestro sitio
+03:37:02	Mikhail Balari:	Entiendo Solange, muchas gracias.!
+03:37:15	[Tutor] Jonatan Pereyra:	Si son cosas sencillas si Franco, suponete ir a otra seccion
+03:37:18	[Tutor] Jonatan Pereyra:	y usarlo como enlace
+03:37:23	[Tutor] Jonatan Pereyra:	Como hace el profe
+03:37:36	[Tutor] Jonatan Pereyra:	Ahora, acciones en si, no, para eso se necesitra js
+03:37:37	Juan Pablo Garnica:	si si
+03:38:10	Franco Bustos:	Perfecto! Pero a ese <a> le podemos dar estilo botón?
+03:39:06	Maximiliano Jarzynski:	Si, tenes que modelar la caja
+03:39:13	Franco Bustos:	Perfecto
+03:39:21	Franco Bustos:	Sisi lo vi! Gracias profe
+03:40:49	Verónica Panigatti:	si
+03:40:50	Gabriel Bulacio:	sisi
+03:40:52	Juan Pablo Garnica:	si Profe
+03:40:53	Nestor D HEREDIA:	si
+03:40:54	Vittorio Durigutti:	sis
+03:40:57	Miguel Mamani:	si
+03:41:36	Rodrigo Sdrigotti:	el botón te quedo modificado en una sola tarjeta
+03:42:24	Rodrigo Sdrigotti:	si gracias
+03:42:31	Facundo Rey:	al href se le pone #
+03:42:48	Gabriel Luna:	sigamos
+03:43:01	Bruno Manolio:	chicos puse TEXTDECPRATION "none" y no se me borro el subrrallado
+03:43:03	Bruno Manolio:	:(
+03:43:17	Maximiliano Jarzynski:	Esta bien, por que para eso es
+03:43:18	[Tutor] Jonatan Pereyra:	Bruno te fijaste que este todo bien escrito y sin errores?
+03:43:20	Rodrigo Sdrigotti:	esta mal escrito
+03:43:25	Bruno Manolio:	sisi
+03:43:26	Bruno Manolio:	rao
+03:43:32	Bruno Manolio:	desp lo chequeo nuevamente
+03:43:35	Federico Beluardo:	si
+03:43:37	Jose Rodriguez:	sii
+03:43:38	Juan Achucarro:	Se entiende.
+03:43:40	Lucas Aranda:	si avanzamos
+03:43:41	Federico Beluardo:	avancemos
+03:43:41	Mikhail Balari:	si avancemos.!
+03:43:44	Juan Pablo Garnica:	sigamos
+03:46:00	Gabriel Bulacio:	sisi
+03:48:03	Carlos Nuñez:	y si le pone -10?
+03:48:22	[Tutor] Jonatan Pereyra:	Recomendación es no usar valores negativos
+03:48:28	[TUTORA] Solange Mac Intyre:	No va a quedar bien
+03:48:30	Carlos Nuñez:	ok gracias
+03:49:40	Maximiliano Jarzynski:	tanes el cimplificado sino
+03:50:10	[TUTORA] Solange Mac Intyre:	Cuando los valores no son iguales pueden usar esta ultima forma.
+03:50:28	Verónica Panigatti:	nosi
+03:50:29	Juan Pablo Garnica:	si, perfecto
+03:50:30	Carlos Nuñez:	siempre comienza en el norte
+03:50:31	Mikhail Balari:	sep
+03:50:31	Marcos del Campo:	perfecto
+03:50:32	Julian Bessopianetto:	si
+03:50:33	Ronaldo Chullunucy:	si, queda aun mejor
+03:50:35	Facundo Rey:	de 10
+03:50:40	Nestor D HEREDIA:	si
+03:50:53	Guido Sanchez:	Excelente
+03:53:58	Verónica Panigatti:	👍
+03:55:07	Maximiliano Jarzynski:	Si, cambió
+03:55:31	Carlos Nuñez:	un circulo haga
+03:55:34	Carlos Nuñez:	por favor
+03:56:09	Juan Pablo Garnica:	está medio ovalado
+03:56:16	Rodrigo Sdrigotti:	por el padding
+03:56:16	Maximiliano Jarzynski:	por los padding
+03:57:05	Carlos Nuñez:	excelente gracias
+03:57:13	Juan Pablo Garnica:	si si
+03:57:27	[TUTORA] Solange Mac Intyre:	Esta propiedad indica que el tamaño de la caja debe contemplar hasta el borde de la caja
+03:58:36	Juan Pablo Garnica:	ahhh joya
+03:59:36	Julian Bessopianetto:	profe como aplicamos los bordes redondeados pero por la parte de adentro
+03:59:38	Julian Bessopianetto:	?
+03:59:54	[Tutor] Jonatan Pereyra:	Como por adentro Julian?
+03:59:55	[TUTORA] Solange Mac Intyre:	Cómo sería eso Juli?
+04:00:10	Julian Bessopianetto:	cuando hizo el marco con 13 px de ancho
+04:00:18	Julian Bessopianetto:	y luego aplico el redondeado en las puntas
+04:00:25	Rodrigo Sdrigotti:	y se le puede poner transparencia tb
+04:00:32	Jose Rodriguez:	se entiende
+04:00:33	Julian Bessopianetto:	solo se aplico por afuera de los bordes, en la parte de dentro aun segue estando cuadrado
+04:00:34	[Tutor] Jonatan Pereyra:	El borde es el borde
+04:00:50	[Tutor] Jonatan Pereyra:	y el que se pone como redoneado sigue siendo el borde
+04:00:57	Marcos del Campo:	esto no se puede por agujas del reloj? te queda un chino igual, no?
+04:01:21	[Tutor] Jonatan Pereyra:	Se puede por las agujas del reloj tambien
+04:01:21	Juan Pablo Garnica:	se entiende
+04:01:22	Carlos Nuñez:	si
+04:01:31	[TUTORA] Solange Mac Intyre:	Juli, Puede ser por el borde en punta de la imagen que se superpuso en el borde de la card
+04:01:32	Nestor D HEREDIA:	si
+04:01:49	Javier García.:	y para hacerlo como un degradado profe como una sombra , hay alguna propiedad?
+04:01:59	Julian Bessopianetto:	puede ser
+04:02:05	Emiliano Victor Vallejos:	🥵
+04:02:13	Gabriel Bulacio:	bastaaaante!! jajaj
+04:02:15	Franco Bustos:	como le ponemos fondo a la pagina profe?
+04:02:18	Nestor D HEREDIA:	jaja
+04:02:29	Juan Pablo Garnica:	dale dale
+04:02:30	Patricio Despontin:	dale
+04:02:30	Rodrigo Sdrigotti:	ok
+04:02:35	Franco Bustos:	le podemos poner un fondo a la pagina?
+04:02:37	Franco Bustos:	una foto?
+04:02:42	Carlos Nuñez:	si
+04:02:44	Carlos Nuñez:	franco
+04:02:48	Maximiliano Jarzynski:	Si, con el background-image
+04:02:58	Carlos Nuñez:	lo vimos
+04:03:02	Carlos Nuñez:	en la clase pasada
+04:11:39	Marcos del Campo:	si
+04:11:40	Nestor D HEREDIA:	si
+04:11:41	Axel Ruffini:	si
+04:11:42	Gabriel Bulacio:	sisi
+04:13:28	Marcos del Campo:	410
+04:18:29	Carlos Nuñez:	buenisimo
+04:19:22	Giovanni Gally:	profe podría subir la imagen
+04:19:33	[TUTORA] Solange Mac Intyre:	Queda bastante feo mejor si no lo usan
+04:19:37	Giovanni Gally:	la caja 2
+04:19:42	[TUTORA] Solange Mac Intyre:	Si
+04:19:46	Maximiliano Jarzynski:	Es que no se suele ver tampoco
+04:21:11	Juan Pablo Garnica:	se entendio
+04:21:15	Nestor D HEREDIA:	bien
+04:21:19	Marcos del Campo:	entendido
+04:21:19	Facundo Rey:	clarisimo
+04:21:20	Carlos Nuñez:	si, se entiende
+04:21:24	Lucas Aranda:	se entendio
+04:25:51	Pablo Galluccio:	perdón la pregunta, a que te referis, o cual seria la diferencia de los " elementos en linea "
+04:26:33	[TUTORA] Solange Mac Intyre:	En linea se ubican naturalmente uno al lado del otro, bloque ocupan de lado a lado.
+04:26:46	Pablo Galluccio:	gracias
+04:26:49	[TUTORA] Solange Mac Intyre:	Peeero podemos modificar ese comportamiento utilizando la propiedad display
+04:27:04	Pablo Galluccio:	okii muchas gracias
+04:28:57	Lucas Aranda:	ese span se puede poner href?
+04:29:15	Lucas Aranda:	como para redirigir  a otra pagina digo
+04:29:25	[Tutor] Jonatan Pereyra:	Si se puede Lucas
+04:29:35	Lucas Aranda:	disculpe si me fui de tema
+04:30:28	Lucas Aranda:	gracias por el ejemplo
+04:33:58	Lucas Aranda:	el logito de whatsap
+04:34:21	[TUTORA] Solange Mac Intyre:	Si !
+04:34:29	[Tutor] Jonatan Pereyra:	Cuidado con los position, a menos que esten muy seguros de como usarlos
+04:34:52	[Tutor] Jonatan Pereyra:	Les recomendamos no acomodar los elementos de su pagina con position, si no esperar un poquito mas y ver como trabajamos con flex
+04:35:35	[TUTORA] Solange Mac Intyre:	No se vuelvan locos tratando de acomodar los elementos con position porque tal como dice Jony vamos a ver maneras mejores.
+04:36:08	Axel Ruffini:	si quiero poner el texto a la derecha de la imagen, se acomoda con flex?
+04:36:58	[Tutor] Jonatan Pereyra:	Sep
+04:37:04	Axel Ruffini:	gracias!
+04:38:39	Gabriel Bulacio:	sisi
+04:38:41	Marcos del Campo:	sii
+04:38:42	Verónica Panigatti:	joya
+04:38:43	Mikhail Balari:	sii
+04:38:43	Nestor D HEREDIA:	bien
+04:38:49	Lucas Aranda:	sisi
+04:38:58	Federico Beluardo:	si
+04:39:16	Verónica Panigatti:	Se puede poner un aside ahí adentro?
+04:39:54	Pablo Galluccio:	no falto el . en main?
+04:40:04	Pablo Galluccio:	ah ok ok
+04:40:11	Pablo Galluccio:	claro sisi
+04:40:13	Pablo Galluccio:	sorry jaja
+04:40:58	Julian Bessopianetto:	disculpe profe, que dijo del . al main, es uqe justo no escuche xq se corto mi audio
+04:41:21	Marcos del Campo:	no hace falta porque es una etiqueta, no es una clase
+04:41:26	[TUTORA] Solange Mac Intyre:	El main es una etiqueta entonces uso como selector main y no punto main .main
+04:41:43	Julian Bessopianetto:	ya
+04:41:45	Julian Bessopianetto:	gracias
+04:42:04	Juan Pablo Garnica:	si si
+04:43:43	[TUTORA] Solange Mac Intyre:	cuando llega a la posición indicada se pega
+04:44:34	[TUTORA] Solange Mac Intyre:	Estos 2 son confusos, no se preocupen si no se entienden de una
+04:45:33	[Tutor] Jonatan Pereyra:	Recuerden que pueden ver la clase las veces que necesiten
+04:47:00	Maximiliano Jarzynski:	se pegaron
+04:47:02	Juan Pablo Garnica:	quedó encima
+04:47:40	martin videla:	y como podríamos lograr eso sin la propiedad esa?
+04:47:53	[TUTORA] Solange Mac Intyre:	En la próxima clase
+04:47:54	martin videla:	oki
+04:48:02	Maximiliano Jarzynski:	no le reserva el espacio en el flujo
+04:48:37	Rodrigo Sdrigotti:	z-index
+04:48:54	Verónica Panigatti:	si
+04:48:55	Rodrigo Sdrigotti:	claro layers
+04:49:12	Gabriel Luna:	es como "mandar al frente"
+04:50:38	Marcos del Campo:	toma como referencia la posición original
+04:50:53	Marcos del Campo:	no deja el espacio libre
+04:53:06	Julian Bessopianetto:	si si
+04:53:10	Juan Pablo Garnica:	se entendió
+04:53:12	Gabriel Bulacio:	Sisi, va bien
+04:57:28	Lucio Barberis:	consulta para los tutores, me perdi la parte en la que dijo porque puso .navegador > ul
+04:58:01	[Tutor] Jonatan Pereyra:	Es para aplicar estilos al ul
+04:58:01	[TUTORA] Solange Mac Intyre:	Es una manera de escribir el selector, le indicas que es el hijo directo de navegador
+04:58:04	Juan Pablo Garnica:	si is
+04:58:06	Nestor D HEREDIA:	si
+04:58:07	Marcos del Campo:	si
+04:58:10	Lucio Barberis:	gracias!
+04:59:02	Marcos del Campo:	sisi
+04:59:05	Lucio Barberis:	sii, entendí perfecto
+05:00:49	Maximiliano Jarzynski:	usas un hover?
+05:00:49	Javier García.:	con hover?
+05:01:03	[TUTORA] Solange Mac Intyre:	si
+05:01:59	Juan Pablo Garnica:	bakcground
+05:02:44	Lucas Aranda:	genial
+05:02:50	Facundo Rey:	buenisimo
+05:02:51	Juan Pablo Garnica:	joya
+05:03:00	Nestor D HEREDIA:	perfecto
+05:03:44	[TUTORA] Solange Mac Intyre:	no importa si no queda tan lindo prueben todo lo que quieran así practican
+05:03:45	Verónica Panigatti:	en las 5 hojas o sol el index?
+05:04:01	Lucas Aranda:	si por favor
+05:04:50	Pablo Galluccio:	no era que solamente se entregaba el balsamiq en la pre-entrega?
+05:04:59	[Tutor] Jonatan Pereyra:	Las 5 paginas
+05:05:03	Maximiliano Colella:	Balsamiq.
+05:05:13	Maximiliano Colella:	como se mandan las 5 paginas.
+05:05:14	[TUTORA] Solange Mac Intyre:	No se si cambió porque no corregimos nosotros,
+05:05:24	Rodrigo Sdrigotti:	pero con flexbox?
+05:05:26	Juan Pablo Garnica:	por la plataforma
+05:05:36	[Tutor] Jonatan Pereyra:	Siempre fueron los 5 html
+05:05:37	Lucas Aranda:	linkear las 5 paginas HTML mas css mas balsamic?
+05:05:40	Maximiliano Colella:	index y 4?
+05:05:44	[Tutor] Jonatan Pereyra:	Si Maxi
+05:05:47	Maximiliano Colella:	ok.
+05:05:49	[Tutor] Jonatan Pereyra:	Si Lucas
+05:05:55	Lucas Aranda:	:o
+05:05:55	Nestor D HEREDIA:	ok
+05:06:04	Maximiliano Colella:	lo de fotmularios
+05:06:07	Julian Bessopianetto:	Todo clarisimo
+05:06:08	Maximiliano Colella:	de la clase 2
+05:06:13	Carlos Nuñez:	hayq eu llevar lo de balsamiq a HTML y Css
+05:06:13	Maximiliano Colella:	no lo encontre
+05:06:14	Carlos Nuñez:	??
+05:06:18	Maximiliano Colella:	que tenias como un resumen,.
+05:06:20	Lucas Aranda:	el after va a subirlo?
+05:06:21	Verónica Panigatti:	Va haber after este viernes?
+05:06:22	Mikhail Balari:	ok, muchas gracias.!!
+05:06:26	Maximiliano Colella:	no lo encontré en GITHUB.
+05:06:29	Maximiliano Colella:	gracas!!
+05:06:37	Florencia Falchi:	yo quería saber que era z-index que me perdi en esa parte
+05:06:40	Maximiliano Colella:	me pasas el link por aca?
+05:07:00	Rodrigo Sdrigotti:	pregunta veo q la clase 5 es flexbox.. eso se incluye en la entrega?
+05:07:04	Florencia Falchi:	ah gracias
+05:07:12	[Tutor] Jonatan Pereyra:	No Rodri
+05:07:16	Maximiliano Colella:	GRACOIAS!!!! GENIOOO.
+05:07:18	Rodrigo Sdrigotti:	ok gracias
+05:07:26	[TUTORA] Solange Mac Intyre:	https://github.com/maxirosanda/proyectos3.git
+05:07:31	Juan Pablo Garnica:	buenísimo!
+05:07:42	Facundo Rey:	gracias profe
+05:07:45	Giovanni Gally:	profe lo que nosotros hicimos en balsamiq tendríamos que llevarlo a HTML y css?
+05:07:49	Maximiliano Colella:	ahí esta el Word>
+05:07:51	Maximiliano Colella:	ok.
+05:07:51	Julian Bessopianetto:	Muchisimas gracias
+05:07:54	Maximiliano Colella:	gracias.
+05:07:55	Maximiliano Colella:	slds.
+05:08:00	[Tutor] Jonatan Pereyra:	Nos vemos chicos, descansen!
+05:08:01	Julian Bessopianetto:	nos vemos
+05:08:02	Rodrigo Sdrigotti:	nos vemos
+05:08:04	Lucas Aranda:	saludos
+05:08:04	Juan Pablo Garnica:	gracias Profe y Tutores!
+05:08:05	Patricio Despontin:	gracias!
+05:08:05	Gabriel Bulacio:	Buenas noches!
+05:08:06	Axel Ruffini:	nos vemos
+05:08:06	Julian Bessopianetto:	cuidense todos
+05:08:06	Maximiliano Colella:	nos vemos!!
+05:08:06	Vanesa Beltran:	gracias!
+05:08:09	Verónica Panigatti:	buenas noches
+05:08:10	Jose Rodriguez:	chaoo
+05:08:10	Nestor D HEREDIA:	gracias
+05:08:11	gabriela gomez:	gracias buena semana
+05:08:11	Maximiliano Colella:	gracas!
+05:08:13	Florencia Alva:	Muchas gracias! Excelente!
+05:08:15	Myriam Burgos:	buenas noches
+05:08:17	Evelin Spina:	gracias
+05:08:20	Leandro Bruzzone:	Muchas gracias!

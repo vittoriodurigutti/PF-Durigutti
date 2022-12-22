@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto2</title>
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+</head>
+<body>
+    <nav>
+
+        <div class="navBtn">
+            <ul class="menu__box">
+                <li><a class="menu__item" href="../pages/CompraVenta.html">Comprar/Vender</a></li>
+                <li><a class="menu__item" href="../pages/Publicar.html">Publicar</a></li>
+                <li><a class="menu__item" href="../pages/Contacto.html">Contacto</a></li>
+                <li><a class="menu__item" href="../pages/Ayuda.html">Ayuda</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <img src="../assets/img/HeaderIMG.jpg" alt="">
+     <div>
+        <a class="hmh" href="../index.html"> HOME SWEET HOME</a>
+     </div>
+    </header>
+
+    <main>
+        <Section class="sForm">
+
+                <Form class="formularios">
+                    
+                    <div class="categorias" for="categ">Categoria:
+                        <select name="categoria" >
+                            <option value="">Casa </option>
+                            <option value="">Departamento</option>
+                            <option value="">Terreno</option>
+                            <option value="">Galpon</option>
+                            <option value="">Edilicios</option>
+                        </select>
+                    </div>
+                    
+                    <div class="tipoUnidad">
+                        <ul><h4> Tipo de unidad </h4>
+                            <li> <input type="checkbox" id="cbox1" value="first_checkbox"> Casa</li>
+                            <li> <input type="checkbox" id="cbox2" value="first_checkbox"> Duplex</li>
+                            <li> <input type="checkbox" id="cbox3" value="first_checkbox"> Triplex</li>
+                            <li> <input type="checkbox" id="cbox4" value="first_checkbox"> Casa Quinta </li>
+                            <li><input type="checkbox" id="cbox5" value="first_checkbox"> Prefabricada</li>
+                            <li> <input type="checkbox" id="cbox6" value="first_checkbox"> Cabaña</li>
+                        </ul>
+                    </div>
+
+                    <div class="tipoOper">
+                        <ul><h4> Tipo de Operacion </h4>
+                            <li> <input type="checkbox" id="cbox1" value="first_checkbox"> Venta</li>
+                            <li> <input type="checkbox" id="cbox2" value="first_checkbox"> Alquiler</li>
+                            <li> <input type="checkbox" id="cbox3" value="first_checkbox"> Alquiler Temporario</li>
+                            <li> <input type="checkbox" id="cbox4" value="first_checkbox"> Tiempo Compartido </li>
+                            <li> <input type="checkbox" id="cbox5" value="first_checkbox"> Compra</li>
+                        </ul>
+                    </div>
+                     
+                     <div class="superficie">
+                        <ul> 
+                            <li>Superficie Total m2: 
+                            <input type="text" name="Superficie Total m2"></li>
+                            <li>Superficie cubierta m2:
+                            <input type="text" name="Superficie cubierta m2"></li>
+                            <li>Antiguedad: 
+                            <input type="text" name="Antiguedad"></li>
+                        </ul>
+                    </div>
+            
+                    <div class="dorm">
+                        <ul><h4>  Cantidad de Dormitorios </h4>
+                            <li> <input type="checkbox" id="cbox1" value="first_checkbox"> Monoambiente </li>
+                            <li> <input type="checkbox" id="cbox2" value="first_checkbox"> 1 dormitorio</li>
+                            <li> <input type="checkbox" id="cbox3" value="first_checkbox"> 2 dormitorio</li>
+                            <li> <input type="checkbox" id="cbox4" value="first_checkbox"> 3 dormitorio </li>
+                            <li> <input type="checkbox" id="cbox5" value="first_checkbox"> 4 o mas</li>
+                        </ul>
+                   </div>
+            
+                    <div class="bano">  
+                        <ul><h4>  Cantidad de baños </h4>
+                            <li> <input type="checkbox" id="cbox1" value="first_checkbox"> 1 baños </li>
+                            <li> <input type="checkbox" id="cbox2" value="first_checkbox"> 2 baños</li>
+                            <li> <input type="checkbox" id="cbox4" value="first_checkbox"> 3 baños </li>
+                            <li> <input type="checkbox" id="cbox5" value="first_checkbox"> 4 o mas</li>
+                        </ul>
+                    </div>
+            
+                    <div class="cochera"> 
+                        <ul><h4>  Cochera  </h4>
+                            <li> <input type="checkbox" id="cbox1" value="first_checkbox"> 1 auto </li>
+                            <li> <input type="checkbox" id="cbox2" value="first_checkbox"> 2 auto</li>
+                            <li> <input type="checkbox" id="cbox4" value="first_checkbox"> 3 autos </li>
+                        </ul>
+                        <ul><h4>  Tipo de Cochera  </h4>
+                            <li> <input type="checkbox" id="cbox1" value="first_checkbox"> Cubierta </li>
+                            <li> <input type="checkbox" id="cbox2" value="first_checkbox"> Descubierta</li>
+                            <li> <input type="checkbox" id="cbox4" value="first_checkbox"> Semidescubierta </li>
+                        </ul>
+                    </div>
+                        
+                    
+                    <h3 class="ubicacion">Ubicacion</h3>
+
+                    <!-- incorpore la funcion directamente desde googlemaps Compartir/incorporar mapa-->
+                    <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d108955.70678986094!2d-64.159744!3d-31.4178223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1669769397571!5m2!1ses-419!2sar" width="500" height="380" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    <div class="localidad">   
+                        <label>Provincia</label>
+                        <input type="text" name="Provincia">
+                        <label>Ciudad: </label>
+                        <input type="text" name="Ciudad">
+                        <label>Barrio: </label>
+                        <input type="text" name="Barrio">
+                        <label>Calle: </label>
+                        <input type="text" name="calle">
+                        <label>Altura: </label>
+                        <input type="text" name="Altura">
+                    </div>
+
+                    
+
+                    <h3 class="contacto"> contacto</h3>
+
+                    <div class="contForm"> 
+
+                        <input type="tel" name="Altura" placeholder="Telefono">
+                        <input type="tel" name="Altura" placeholder="Telefono alternativo 1">
+                        <input type="tel" name="Altura" placeholder="Telefono Alternativo 2">
+                        <input type="mail" name="Altura" placeholder="mail de Contacto">
+                    </div>
+                        
+                        <!-- Agregaria aqui un enñace con wpp -->
+
+                    <div class="precio"> 
+                        <label> Precio </label>
+                        <input type="number" name="precio" placeholder="ingrese solo numeros">
+                        <label > Moneda </label>
+                        <label> <input type="checkbox" id="cbox10" value="first_checkbox"> PESO
+                        </label>
+                        <label> <input type="checkbox" id="cbox11" value="first_checkbox"> DOLAR
+                        </label>
+                    </div>
+            
+                    <div class="pago"> 
+                        <label > Forma de Pago </label>                        <label> <input type="checkbox" id="cbox12" value="first_checkbox"> Contado
+                        </label>
+                        <label> <input type="checkbox" id="cbox13" value="first_checkbox"> Facilidades
+                        </label>
+                        <label> <input type="checkbox" id="cbox14" value="first_checkbox"> Plan 
+                        </label>
+                        <label> <input type="checkbox" id="cbox15" value="first_checkbox"> Credito
+                        </label>
+                    </div>
+            
+                    <h3 class="caract"> Descripcion y Otras Caracteristicas </h3>    
+                    
+                    <div class="descr">            
+                        <label> Titulo del Aviso</label>
+                        <input type="text" name="Titulo del aviso" placeholder="maximo 30 caracteres">
+                        <label >Descripcion</label>
+                        <input type="textarea" placeholder="minimo 50 caracteres">
+                    </div>
+
+            
+                    <div class="foto">   
+                        <label> Foto para galeria</label>
+                        <label for="file-input"> <img src="https://cdn-icons-png.flaticon.com/512/976/976359.png?w=826&t=st=1671592282~exp=1671592882~hmac=6f42205b69457c62c44480319f9c087f3070e2dbd10f0e01b70c4966737199af" alt=""></label>
+                        <input id="file-input"  type="file" name="image" placeholder="Maximo 20 imagenes - Tamaño max. por imagen 2MB">
+                    </div>
+
+                    <div class="video">   
+                    <label> Video para galeria</label>
+                    <label for="file-inputv"> <img src="                    https://cdn-icons-png.flaticon.com/512/1246/1246315.png?w=826&t=st=1671593231~exp=1671593831~hmac=36fbe7265a417b03a4dec084b844996b0c0f34f4eab30c87f99f47f95d2e15a6
+                        " alt=""></label>
+                    <input id="file-inputv" type="file" name="image" placeholder="Maximo 1 video - Tamaño max. 100MB">
+                    </div>   
+
+
+                    <div class="sumit">
+                        <input type="submit" value="Enviar" class="boton">
+                    </div>
+                    
+                        
+
+
+
+                </Form>
+            </Section>
+    </main>
+    
+
+    <footer class="footer">
+        <div class="footer_gral">
+            <div>   
+                <ul class="redes">
+                    <li><a href="https://twitter.com/" target="_blank"><img src="../assets/img/logos/Twitter.png" alt="Twitter"></a></li>
+                    <li><a href="https://www.facebook.com/" target="_blank"><img src="../assets/img/logos/facebook.png" alt="facebook"></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><img src="../assets/img/logos/instagram.png" alt="alt="instagram"></a></li>
+                    <li><a href="https://www.youtube.com/" target="_blank"><img src="../assets/img/logos/youtube.png" alt="youtube"></a></li>
+                </ul>
+
+
+
+                <ul Class="apps">
+                    <li><a href="https://play.google.com/store/apps" target="_blank"> <img src="../assets/img/logos/google-play.png" alt="google-play"></a></li>
+                    <li><a href="https://www.apple.com/la/app-store/" target="_blank"> <img src="../assets/img/logos/Apple.png" alt="AppleApp"></a></li>
+                </ul>
+
+                
+                <ul class="nosotros"> 
+                    <h4>Sobre Nosotros</h4>
+                    <li> ¿Que es HSH? </li>
+                    <li> ¿Quienes somos?</li>
+                    <li> El equipo </li>
+                    <li> Contacto</li>
+                </ul>
+
+                <ul class="dire1"> 
+                    <h4>Sucursal Buenos Aires</h4>
+                    <li> Constitucion 1500 </li>
+                    <li> contacto_constitucion@hsh.com.ar</li>
+                    <li> Tel: 11 - 4522 - 4488 </li>
+                    <li> Horario: 09:00 - 17:00 Lunes a Viernes</li>
+                </ul>
+
+                <ul class="dire2"> 
+                    <h4>Sucursal Cordoba</h4>
+                    <li> La Rioja1500 </li>
+                    <li> contacto_larioja@hsh.com.ar</li>
+                    <li> Tel: 351 - 4522 - 488 </li>
+                    <li> Horario: 09:00 - 18:00 Lunes a Viernes</li>
+                </ul>
+            </div> 
+        </div>
+    </footer>
+</body>
+</html>
