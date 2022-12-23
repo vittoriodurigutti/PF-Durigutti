@@ -66,6 +66,11 @@ header img{
         padding: 12px 23px;
     }
 
+    #hmhBoots {
+        font-size: 80px;
+        line-height: 1.18;
+    }
+
 }
 
 @media (min-width: 768px) and (max-width:1120px) {
@@ -79,12 +84,17 @@ header img{
         padding: 12px 23px;
     }
 
+    #hmhBoots {
+        font-size: 100px;
+    }
+
 }
 
 
 
+
 /*Navegador*/
-nav{
+.nav{
     grid-area: nav ;
     background-color: rgba(206, 206, 182, 0.89); 
     text-transform: uppercase; font-weight: bolder;
@@ -98,13 +108,42 @@ nav{
     list-style: none;
 }
 
+#logo{
+    width: 64px;
+    position: absolute;
+    left: 40px;
+    top: 27px;
+    opacity: 0.7;
+    display: none;
+    z-index: 9;
+}
+
+#logo img{
+    width: 64px;
+    
+}
 
 @media (max-width: 764px) {
 
-    nav {
-        width: 15px;
+    #logo{
+        display: block;
+    }
+
+    #logo:hover + .nav{
+        width: 100%;
+        z-index: 2;
+        position: absolute; 
+    }
+
+    .nav {
+        width: 20%;
         transition: all 0.8s ease-in-out; 
         left: 0; 
+        bottom: 0;
+        top: 0;
+        height: 100%;
+        padding-right: 20px;
+        margin: 0;
     }
 
     nav:hover  {
@@ -113,19 +152,25 @@ nav{
         position: absolute;
         bottom: 0;
         left: 0;
-        top: 0;
-        margin-right: 80%;
+        top: 0;  
         
     }
+
+    .nav:hover .navBtn ul {
+        display: block;
+          
+    }
     .navBtn ul {
+        padding-top: 100px;
         flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        padding-top: 40px;
+        display: none;
+    
+
     }
     
     .navBtn ul li {
-        width: 100%;
+        width: 50%; 
+        
     }
     .navBtn ul li a{
         text-decoration: none;
@@ -145,13 +190,11 @@ nav{
     background:rgba(175, 175, 136, 0.89);
     box-shadow: 0px 4px 0px 0px #BB8EAC;
     }
-    
-
 }
 
 .navBtn ul li {
     display: block;
-    background-color: rgba(206, 206, 182, 0.89);
+    background-color: rgba(206, 206, 182, 0.658);
 }
 
 .navBtn ul li a{
@@ -183,6 +226,23 @@ box-shadow: 0px 4px 0px 0px #BB8EAC;
     #navBoot {
       display: none;
     }
+  }
+
+  #offcanvasDarkNavbar{
+    background-color:  rgba(206, 206, 182, 0.89);
+    text-decoration: none;
+    color: white;
+    border: none;
+    text-align: left;
+    display: block;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    transition: all 0.8s ease
+  }
+
+  .offcanvas-header{
+    margin-top: 20%;
   }
 
 
@@ -219,10 +279,21 @@ main {
     flex-direction: column;
 }
 
+/*acciones para bootstrap*/
 #mainCompraVenta{
-    min-height: 600px;
+    min-height: 400px;
     width: 100%;
     margin:50px;
+}
+
+@media (max-width:764px){
+
+    #mainCompraVenta{
+        min-height: 360px;
+        width: 90%;
+        margin-top: 25px;
+        margin-left: auto;
+    }
 }
 
 .centroMain {
@@ -235,6 +306,9 @@ main {
     background-color: rgba(85, 85, 85, 0.493);
     height: fit-content;
     
+}
+
+.mainCompraVenta  {
 }
 
 .carousel-item div {
@@ -726,6 +800,15 @@ grid-template-areas:"categorias categorias  categorias"
     border-left: 2px solid; border-color: rgba(58, 54, 54, 0.315);
     border-right: 2px solid; border-color: rgba(58, 54, 54, 0.315);
     
+}
+
+@media (max-width:764px) {
+    .ayuda {
+        border: none;
+        width: auto;
+    }
+    
+
 }
 
 .search-box {
