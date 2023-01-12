@@ -55,7 +55,7 @@ body {
   padding: 14px 30px;
   transition: all 0.8s ease;
 }
-@media (max-width: 764px) {
+@media (max-width: 780px) {
   .nav {
     display: none;
   }
@@ -154,7 +154,7 @@ main {
   display: flex;
   flex-direction: column;
 }
-@media (max-width: 764px) {
+@media (max-width: 780px) {
   main {
     margin: auto;
     padding: 5px;
@@ -195,7 +195,266 @@ main .centroMain .carousel-item div:hover {
   height: 40%;
 }
 
-/*Formulario de Publicar */
+/*CONTACTO*/
+.contactoForm {
+  width: 100%;
+  display: flex;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: center;
+  border-left: 2px solid;
+  border-color: rgba(58, 54, 54, 0.315);
+  border-right: 2px solid;
+  border-color: rgba(58, 54, 54, 0.315);
+}
+.contactoForm form {
+  border: solid 10px;
+  border-radius: 8px;
+  border-color: rgb(193, 201, 167);
+  background-image: url(https://64.media.tumblr.com/bdc1e73d6e4a9d56a8e26c4a1fbd640b/tumblr_nl7f4seGLV1qe3zw0o1_500.png);
+  background-size: cover;
+  padding: 10px;
+  display: grid;
+  gap: 10px;
+  max-width: 1000px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "nombreCont comenCont" "numCont    comenCont" "mailCont   comenCont" "enviarCont enviarCont";
+}
+@media (max-width: 769px) {
+  .contactoForm form {
+    width: 95%;
+    gap: 5px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 2fr 1fr;
+    grid-template-areas: "nombreCont " "numCont" "mailCont" "comenCont" "enviarCont";
+  }
+}
+.contactoForm form label {
+  flex-direction: column;
+  display: flex;
+  color: aliceblue;
+}
+.contactoForm form label input, .contactoForm form label textarea {
+  border: 0;
+  border-bottom: 1px solid;
+  border-left: 1px solid;
+  border-color: aliceblue;
+  margin-top: 10px;
+  background-color: transparent;
+}
+.contactoForm form .nombreCont {
+  grid-area: nombreCont;
+}
+.contactoForm form .numCont {
+  grid-area: numCont;
+}
+.contactoForm form .mailCont {
+  grid-area: mailCont;
+}
+.contactoForm form .comenCont {
+  grid-area: comenCont;
+}
+.contactoForm form .enviarCont {
+  grid-area: enviarCont;
+  justify-self: center;
+  align-self: center;
+  border: 2px solid;
+  border-color: aliceblue;
+  padding: 10px;
+  width: 60%;
+  transition: all 0.8s ease;
+  display: flex;
+  justify-content: center;
+}
+.contactoForm form .enviarCont input[type=submit] {
+  border: 0PX;
+  font-size: 18px;
+  color: aliceblue;
+  text-transform: uppercase;
+  background: transparent;
+}
+.contactoForm form .enviarCont:hover {
+  color: black;
+  border-color: black;
+  background-color: rgba(206, 206, 182, 0.89);
+}
+.contactoForm form .enviarCont:hover input[type=submit] {
+  color: rgba(0, 0, 0, 0.63);
+  font-size: 24px;
+  font-weight: 300;
+}
+
+/* AYUDA */
+.ayuda {
+  width: 80%;
+  display: flex;
+  margin-top: 100px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: center;
+  border-left: 2px solid;
+  border-color: rgba(58, 54, 54, 0.315);
+  border-right: 2px solid;
+  border-color: rgba(58, 54, 54, 0.315);
+}
+@media (max-width: 764px) {
+  .ayuda {
+    width: 95%;
+    border: none;
+    width: auto;
+  }
+}
+.ayuda .search-box {
+  position: relative;
+  width: 50%;
+  padding: 20px;
+}
+@media (max-width: 764px) {
+  .ayuda .search-box {
+    width: 80%;
+    align-self: flex-start;
+  }
+}
+.ayuda .search-box .search-form {
+  height: 32px;
+  border: 1px solid #feacae;
+  background-color: #fff;
+  overflow: hidden;
+}
+.ayuda .search-box .search-text {
+  font-size: 12px;
+  color: #ddd;
+  border-width: 0;
+  background: transparent;
+}
+.ayuda .search-box input[type=text] {
+  width: 90%;
+  padding: 8px 0 12px 1em;
+  color: #333;
+  outline: none;
+}
+.ayuda .search-box .search-button {
+  position: absolute;
+  top: 18px;
+  right: 0;
+  height: 34px;
+  width: 100px;
+  font-size: 14px;
+  color: #555;
+  text-align: center;
+  line-height: 4px;
+  border-width: 0;
+  background-color: #cbf3ee;
+  cursor: pointer;
+}
+@media (max-width: 780px) {
+  .ayuda .search-box .search-button {
+    width: auto;
+    font-size: 14px;
+  }
+}
+.ayuda .preguntas {
+  border: solid 10px;
+  border-radius: 8px;
+  border-color: rgb(193, 201, 167);
+  background-color: rgb(90, 89, 89);
+  padding: 10px;
+  color: aliceblue;
+  height: auto;
+  width: 60%;
+}
+@media (max-width: 764px) {
+  .ayuda .preguntas {
+    width: 95%;
+    border: solid 5px;
+    padding: 5px;
+  }
+}
+@media (max-width: 764px) {
+  .ayuda .preguntas ul {
+    padding: 10px;
+    margin: 10px;
+  }
+}
+.ayuda .preguntas ul li {
+  padding-top: 10px;
+  text-transform: uppercase;
+  list-style: none;
+}
+.ayuda .preguntas ul li p {
+  display: none;
+}
+.ayuda .preguntas ul li button {
+  background-color: transparent;
+  transition: all 1s ease-in-out;
+  border: none;
+  color: white;
+}
+.ayuda .preguntas ul li button:hover {
+  color: rgba(206, 206, 182, 0.89);
+}
+.ayuda .preguntas ul li button:active + P {
+  display: block;
+}
+
+#tajetasCompraVenta {
+  height: 100%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 3px;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: rgba(206, 206, 182, 0.89);
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  bottom: 0;
+}
+@media (max-width: 768px) {
+  .footer {
+    left: 0;
+    right: 0;
+  }
+}
+.footer .footer_gral {
+  margin-left: 7%;
+  margin-right: 7%;
+  border: solid 5px;
+  border-color: aliceblue;
+}
+.footer .footer_gral div {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 18px;
+  flex-flow: row wrap;
+}
+.footer .footer_gral div ul {
+  padding: 10px;
+  align-self: center;
+}
+.footer .footer_gral div .redes {
+  display: flex;
+}
+.footer .footer_gral div .redes li a img {
+  width: 64px;
+  padding: 10px;
+}
+.footer .footer_gral div .apps {
+  display: flex;
+}
+.footer .footer_gral div .apps li a img {
+  width: 200px;
+  padding: 10px;
+  height: 64px;
+}
+
 .sForm {
   justify-content: center;
   display: flex;
@@ -217,6 +476,15 @@ main .centroMain .carousel-item div:hover {
   grid-template-rows: repeat(12, minmax(100px, auto));
   gap: 10px;
   grid-template-areas: "categorias categorias  categorias" "tipoUnidad tipoOper    superficie" "dorm       bano        cochera" "ubicacion  ubicacion   ubicacion" "localidad  mapa        mapa" "contacto   contacto    contacto" "contForm   contForm    contForm" "precio     precio      pago" "caract     caract      caract" "descr      descr       descr" "foto       video       video " "sumit      sumit       sumit";
+}
+@media (max-width: 764px) {
+  .sForm .formularios {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(12, minmax(100px, auto));
+    gap: 10px;
+    margin: 0px;
+    grid-template-areas: "categorias" "tipoUnidad" "tipoOper" "superficie" "dorm" "bano" "cochera" "ubicacion" "localidad" "mapa" "contacto" "contForm" "precio" "pago" "caract" "descr" "foto" "video" "sumit";
+  }
 }
 .sForm .formularios div input {
   border: 0;
@@ -408,237 +676,4 @@ main .centroMain .carousel-item div:hover {
   color: rgba(0, 0, 0, 0.63);
   font-size: 24px;
   font-weight: 300;
-}
-@media (max-width: 764px) {
-  .sForm {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(12, minmax(100px, auto));
-    gap: 10px;
-    margin: 0px;
-    grid-template-areas: "categorias" "tipoUnidad" "tipoOper" "superficie" "dorm" "bano" "cochera" "ubicacion" "localidad" "mapa" "contacto" "contForm" "precio" "pago" "caract" "descr" "foto" "video" "sumit";
-  }
-}
-
-/*CONTACTO*/
-.contactoForm {
-  width: 100%;
-  display: flex;
-  text-transform: uppercase;
-  font-weight: bolder;
-  margin-top: 100px;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-self: center;
-  border-left: 2px solid;
-  border-color: rgba(58, 54, 54, 0.315);
-  border-right: 2px solid;
-  border-color: rgba(58, 54, 54, 0.315);
-}
-.contactoForm form {
-  border: solid 10px;
-  border-radius: 8px;
-  border-color: rgb(193, 201, 167);
-  background-image: url(https://64.media.tumblr.com/bdc1e73d6e4a9d56a8e26c4a1fbd640b/tumblr_nl7f4seGLV1qe3zw0o1_500.png);
-  background-size: cover;
-  padding: 10px;
-  display: grid;
-  gap: 10px;
-  width: 1000px;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-template-areas: "nombreCont comenCont" "numCont    comenCont" "mailCont   comenCont" "enviarCont enviarCont";
-}
-.contactoForm form label {
-  flex-direction: column;
-  display: flex;
-  color: aliceblue;
-}
-.contactoForm form label input, .contactoForm form label textarea {
-  border: 0;
-  border-bottom: 1px solid;
-  border-left: 1px solid;
-  border-color: aliceblue;
-  margin-top: 10px;
-  background-color: transparent;
-}
-.contactoForm form .nombreCont {
-  grid-area: nombreCont;
-}
-.contactoForm form .numCont {
-  grid-area: numCont;
-}
-.contactoForm form .mailCont {
-  grid-area: mailCont;
-}
-.contactoForm form .comenCont {
-  grid-area: comenCont;
-}
-.contactoForm form .enviarCont {
-  grid-area: enviarCont;
-  justify-self: center;
-  align-self: center;
-  border: 2px solid;
-  border-color: aliceblue;
-  padding: 10px;
-  width: 60%;
-  transition: all 0.8s ease;
-  display: flex;
-  justify-content: center;
-}
-.contactoForm form .enviarCont input[type=submit] {
-  border: 0PX;
-  font-size: 18px;
-  color: aliceblue;
-  text-transform: uppercase;
-  background: transparent;
-}
-.contactoForm form .enviarCont:hover {
-  color: black;
-  border-color: black;
-  background-color: rgba(206, 206, 182, 0.89);
-}
-.contactoForm form .enviarCont:hover input[type=submit] {
-  color: rgba(0, 0, 0, 0.63);
-  font-size: 24px;
-  font-weight: 300;
-}
-
-/* AYUDA */
-.ayuda {
-  width: 80%;
-  display: flex;
-  margin-top: 100px;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-self: center;
-  border-left: 2px solid;
-  border-color: rgba(58, 54, 54, 0.315);
-  border-right: 2px solid;
-  border-color: rgba(58, 54, 54, 0.315);
-}
-@media (max-width: 764px) {
-  .ayuda {
-    border: none;
-    width: auto;
-  }
-}
-.ayuda .search-box {
-  position: relative;
-  width: 50%;
-  padding: 20px;
-}
-.ayuda .search-box .search-form {
-  height: 32px;
-  border: 1px solid #feacae;
-  background-color: #fff;
-  overflow: hidden;
-}
-.ayuda .search-box .search-text {
-  font-size: 14px;
-  color: #ddd;
-  border-width: 0;
-  background: transparent;
-}
-.ayuda .search-box input[type=text] {
-  width: 90%;
-  padding: 8px 0 12px 1em;
-  color: #333;
-  outline: none;
-}
-.ayuda .search-box .search-button {
-  position: absolute;
-  top: 18px;
-  right: 0;
-  height: 34px;
-  width: 100px;
-  font-size: 14px;
-  color: #555;
-  text-align: center;
-  line-height: 4px;
-  border-width: 0;
-  background-color: #cbf3ee;
-  cursor: pointer;
-}
-.ayuda .preguntas {
-  border: solid 10px;
-  border-radius: 8px;
-  border-color: rgb(193, 201, 167);
-  background-color: rgb(90, 89, 89);
-  padding: 10px;
-  color: aliceblue;
-  height: auto;
-  width: 60%;
-}
-.ayuda .preguntas li {
-  padding-top: 10px;
-  text-transform: uppercase;
-  list-style: none;
-}
-.ayuda .preguntas li p {
-  display: none;
-}
-.ayuda .preguntas li button {
-  background-color: transparent;
-  transition: all 1s ease-in-out;
-  border: none;
-  color: white;
-}
-.ayuda .preguntas li button:hover {
-  color: rgba(206, 206, 182, 0.89);
-}
-.ayuda .preguntas li button:active + P {
-  display: block;
-}
-
-#tajetasCompraVenta {
-  height: 100%;
-  padding-top: 10%;
-  padding-bottom: 10%;
-  padding-left: 3px;
-}
-
-.footer {
-  grid-area: footer;
-  background-color: rgba(206, 206, 182, 0.89);
-  width: 100%;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  bottom: 0;
-}
-@media (max-width: 768px) {
-  .footer {
-    left: 0;
-    right: 0;
-  }
-}
-.footer .footer_gral {
-  margin-left: 7%;
-  margin-right: 7%;
-  border: solid 5px;
-  border-color: aliceblue;
-}
-.footer .footer_gral div {
-  display: flex;
-  justify-content: space-evenly;
-  font-size: 18px;
-  flex-flow: row wrap;
-}
-.footer .footer_gral div ul {
-  padding: 10px;
-  align-self: center;
-}
-.footer .footer_gral div .redes {
-  display: flex;
-}
-.footer .footer_gral div .redes li a img {
-  width: 64px;
-  padding: 10px;
-}
-.footer .footer_gral div .apps {
-  display: flex;
-}
-.footer .footer_gral div .apps li a img {
-  width: 200px;
-  padding: 10px;
-  height: 64px;
 }
