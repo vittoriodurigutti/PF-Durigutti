@@ -1,0 +1,484 @@
+main {
+    margin:50px;
+    width: 100%;
+    grid-area: main;
+    min-height: 600px;
+    justify-self: center;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    @media (max-width: 764px) {
+        margin: auto;
+        padding: 5px;
+    }
+    #mainCompraVenta{
+        min-height: 400px;
+        width: 100%;
+        margin:50px;
+        @media (max-width:764px){
+            min-height: 360px;
+            width: 90%;
+            margin-top: 25px;
+            margin-left: auto;
+        }
+    }
+    .centroMain {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-self: center;
+        background-color: rgba(85, 85, 85, 0.493);
+        height: fit-content;
+        .carousel-item {
+            div {
+            background-color: rgba(85, 85, 85, 0.493);
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 0;
+            overflow: hidden;
+            transition: all 1.5s ease-in-out;
+            &:hover {
+                height: 40%;
+            } 
+            }  
+            
+        }
+    }      
+}
+
+/*Formulario de Publicar */
+
+.sForm{
+    justify-content: center;
+    display: flex;
+    .formularios {
+        border: solid 10px; border-radius: 8px; border-color: rgb(193, 201, 167);
+        background-color: rgb(90, 89, 89);
+        color: aliceblue;
+        text-transform: uppercase;
+        padding: 10px;
+        max-width: 1000px ;
+        min-width: 360px;
+        margin: 15px;    
+        align-items: stretch;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(12, minmax(100px, auto));
+        gap: 10px;
+
+        div {
+            input {
+                border: 0;
+                border: 0;
+                border-bottom: 1px solid;
+                border-color: aliceblue;
+                margin-top: 10px;
+                background-color: transparent;    
+            }
+        }
+        .categorias {
+            grid-area: categorias;
+            justify-self: center;
+            align-self: center;
+            font-size: 22px;
+            border: 1px solid ;
+            border-color: aliceblue;
+            padding: 10px;      
+        }
+        .tipoUnidad {
+            grid-area: tipoUnidad;
+            padding: 10px;   
+        }
+        .tipoOper {
+            grid-area: tipoOper;
+            padding: 10px;
+        }
+        .superficie {
+            grid-area: superficie;
+            padding: 10px;
+            ul {
+                display: flex;
+                flex-direction: column;
+                align-items: space-between; 
+                li{
+                    margin-bottom: 15px;
+                }  
+            }
+        }
+        .dorm {
+            grid-area: dorm;
+            padding: 10px;
+        
+        }
+        .bano {
+            grid-area: bano;
+            padding: 10px;
+        
+        }
+        .cochera {
+            grid-area: cochera;
+            display: flex;
+            justify-content:space-between;
+            padding: 10px;
+        }
+        
+        .ubicacion {
+            grid-area: ubicacion;
+            justify-self: center;
+            align-self: center;
+            font-size: 22px;
+            border: 1px solid ;
+            border-color: aliceblue;
+            padding: 10px;
+        }
+        .localidad {
+            grid-area: localidad;
+            display: flex;
+            flex-direction: column;
+            align-items: space-between;
+            padding: 10px; 
+            label {
+                margin-top: 5px;
+                
+            }   
+        }
+        .mapa {
+            grid-area: mapa;
+            padding: 10px;
+            justify-self: center;
+        }
+        .contacto {
+            grid-area: contacto;
+            justify-self: center;
+            align-self: center;
+            font-size: 22px;
+            border: 1px solid ;
+            border-color: aliceblue;
+            padding: 10px;
+        }
+        .contForm {
+            grid-area: contForm;
+            padding: 10px;
+            display: flex;
+            justify-content: space-evenly ;
+        }
+        .precio {
+            grid-area: precio;
+            padding: 10px;
+            display: flex;
+            justify-content: space-evenly ;
+            flex-direction: column;
+            border-right: 1px solid;
+            border-color: rgba(240, 248, 255, 0.116);
+            margin-top: 10px;
+            label {
+                margin-top: 10px;
+            }
+        }
+        
+        
+.pago {
+    grid-area: pago;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly ;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.caract {
+    grid-area: caract;
+     justify-self: center;
+    align-self: center;
+    font-size: 22px;
+    border: 1px solid ;
+    border-color: aliceblue;
+    padding: 10px;
+}
+.descr {
+    grid-area: descr;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly ;
+    flex-direction: column;
+    border-right: 1px solid;
+    border-color: rgba(240, 248, 255, 0.116);
+    margin-top: 10px;
+    label {
+        margin-top: 10px;
+    }    
+}
+
+.foto {
+    grid-area: foto;
+    padding: 10px; 
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    align-items: center;
+    input {
+        display: none;
+    }
+    img { 
+        width: 64px;
+        margin: 20px;    
+    }
+}
+
+.video {
+    grid-area: video;
+    padding: 10px; 
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    align-items: center;
+    img { 
+        width: 64px;
+        margin: 20px;    
+    }
+    input {
+        display: none;
+    }
+}
+.sumit {
+    grid-area: sumit;
+    justify-self: center;
+    align-self: center;
+    border: 2px solid ;
+    border-color: aliceblue;
+    padding: 10px;
+    width: 60%;  
+    display: flex;
+    flex-direction: column; 
+    transition: all .8s ease;
+    input[type="submit"] {
+        border: 0PX;
+        font-size: 18px;
+        color: aliceblue;
+        text-transform: uppercase;}
+    &:hover{
+        color: black;
+        border-color: black;
+        background-color: rgba(206, 206, 182, 0.89);
+    }
+    &:hover input[type="submit"]{
+        color: rgba(0, 0, 0, 0.63);
+        font-size: 24px;
+        font-weight: 300;
+    }
+}
+        grid-template-areas:"categorias categorias  categorias"
+                            "tipoUnidad tipoOper    superficie"    
+                            "dorm       bano        cochera"
+                            "ubicacion  ubicacion   ubicacion"
+                            "localidad  mapa        mapa"
+                            "contacto   contacto    contacto"
+                            "contForm   contForm    contForm"
+                            "precio     precio      pago"
+                            "caract     caract      caract"
+                            "descr      descr       descr"
+                            "foto       video       video "
+                            "sumit      sumit       sumit" 
+    }     
+    @media (max-width: 764px) {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(12, minmax(100px, auto));
+        gap: 10px;
+        margin: 0px; 
+        grid-template-areas:"categorias"
+                            "tipoUnidad"
+                            "tipoOper"
+                            "superficie"    
+                            "dorm"
+                            "bano"
+                            "cochera"               
+                            "ubicacion"
+                            "localidad"
+                            "mapa"
+                            "contacto"
+                            "contForm"
+                            "precio"
+                            "pago"
+                            "caract"
+                            "descr"
+                            "foto"
+                            "video"
+                            "sumit" 
+    }
+}
+ 
+/*CONTACTO*/
+
+
+.contactoForm{
+    width: 100%;
+    display: flex; 
+    text-transform: uppercase; font-weight: bolder;
+    margin-top: 100px;
+    flex-wrap: wrap;  
+    justify-content:center;
+    align-self: center;
+    border-left: 2px solid; border-color: rgba(58, 54, 54, 0.315);
+    border-right: 2px solid; border-color: rgba(58, 54, 54, 0.315);
+
+    form{
+        border: solid 10px; border-radius: 8px; border-color: rgb(193, 201, 167);
+        background-image: url(https://64.media.tumblr.com/bdc1e73d6e4a9d56a8e26c4a1fbd640b/tumblr_nl7f4seGLV1qe3zw0o1_500.png);
+        background-size: cover;
+        padding: 10px;
+        display: grid;
+        gap: 10px;
+        width: 1000px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: "nombreCont comenCont"
+                         "numCont    comenCont"
+                         "mailCont   comenCont"
+                         "enviarCont enviarCont";
+        label {
+            flex-direction: column;
+            display: flex;
+            color: aliceblue;
+            input, textarea {
+                border: 0;
+                border-bottom: 1px solid;
+                border-left: 1px solid;
+                border-color: aliceblue;
+                margin-top: 10px;
+                background-color: transparent;
+                
+            }
+        }
+        
+        .nombreCont {
+            grid-area: nombreCont;
+            
+        }
+        .numCont{
+            grid-area: numCont;
+        }
+        .mailCont{
+            grid-area: mailCont;
+        }
+        .comenCont{
+            grid-area: comenCont;
+        }
+        .enviarCont{
+            grid-area: enviarCont;
+            justify-self: center;
+            align-self: center;
+            border: 2px solid ;
+            border-color: aliceblue;
+            padding: 10px;
+            width: 60%;  
+            transition: all .8s ease;
+            display: flex;
+            justify-content: center;
+            input[type="submit"] {
+                border: 0PX;
+                font-size: 18px;
+                color: aliceblue;
+                text-transform: uppercase;
+                background: transparent;
+            }
+            &:hover{
+                color: black;
+                border-color: black;
+                background-color: rgba(206, 206, 182, 0.89);
+            }
+            &:hover input[type="submit"]{
+                color: rgba(0, 0, 0, 0.63);
+                font-size: 24px;
+                font-weight: 300;
+            }
+
+        }
+    }
+}
+
+
+/* AYUDA */
+.ayuda{
+    width: 80%;
+    display:flex;
+    margin-top: 100px;
+    flex-wrap: wrap;  
+    justify-content:center;
+    align-self: center;
+    border-left: 2px solid; border-color: rgba(58, 54, 54, 0.315);
+    border-right: 2px solid; border-color: rgba(58, 54, 54, 0.315);
+    @media (max-width:764px) {     
+        border: none;
+        width: auto;}
+    
+    .search-box {
+        position: relative;
+        width: 50%;
+        padding: 20px;
+        .search-form {
+            height: 32px;
+            border: 1px solid #feacae;
+            background-color: #fff;
+            overflow: hidden;
+            }
+        .search-text {
+            font-size: 14px;
+            color: #ddd;
+            border-width: 0;
+            background: transparent;
+            }
+        input[type="text"] {
+            width: 90%;
+            padding: 8px 0 12px 1em;
+            color: #333;
+            outline: none;
+            }
+        .search-button {
+                position: absolute;
+                top: 18px;
+                right: 0;
+                height: 34px;
+                width: 100px;
+                font-size: 14px;
+                color: #555;
+                text-align: center;
+                line-height: 4px;
+                border-width:0;
+                background-color: #cbf3ee;
+                cursor: pointer;
+            }
+        
+        }
+    .preguntas {
+            border: solid 10px; border-radius: 8px; border-color: rgb(193, 201, 167);
+            background-color: rgb(90, 89, 89);
+            padding: 10px;
+            color: aliceblue;
+            height: auto;
+            width: 60%;
+            li {
+                padding-top: 10px;
+                text-transform: uppercase;
+                list-style: none;
+                p {
+                    display: none;
+                }
+                button{
+                    background-color: transparent;
+                    transition: all 1s ease-in-out;
+                    border: none;
+                    color: white;
+                    &:hover {color:  rgba(206, 206, 182, 0.89);}
+                    &:active + P  {display: block;}
+                }
+            } 
+        }       
+}
+
+
+
+#tajetasCompraVenta {
+    height: 100%;
+    padding-top: 10% ; padding-bottom: 10%; padding-left: 3px;  
+}

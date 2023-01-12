@@ -1,0 +1,33 @@
+*{
+    margin: 0; padding: 0; list-style: none;
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 100%  ;
+    grid-template-rows: 60px 300px 1fr auto ;
+    grid-template-areas: "nav"
+                         "header"
+                         "main"
+                         "footer" ;
+  }
+  @media (max-width: 764px) {
+    body {
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-template-rows: 300px 1fr auto ;
+        grid-template-areas: 
+                             "nav header"
+                             "nav main"
+                             "nav footer" ;
+      }
+  }
+  
+@import "nav";
+@import "header";
+@import "main";
+@import "footer";
+
+

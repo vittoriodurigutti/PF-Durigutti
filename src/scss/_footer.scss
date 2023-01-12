@@ -1,0 +1,53 @@
+.footer {
+    grid-area: footer;
+    background-color: rgba(206, 206, 182, 0.89);
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    bottom: 0;
+    @media (max-width: 768px){
+        left: 0;
+        right: 0
+        }
+    .footer_gral {
+            margin-left: 7%;
+            margin-right: 7%;
+            border: solid 5px;
+            border-color: aliceblue; 
+            div {
+                display: flex;
+                justify-content:space-evenly  ;   
+                font-size: 18px;  
+                flex-flow: row wrap;
+                ul {
+                    padding: 10px;
+                    align-self: center
+                }
+                .redes {
+                    display: flex;
+                    li{
+                        a{
+                            img{
+                                width: 64px;
+                                padding: 10px;
+                            }
+                        }
+                    }
+                    
+                }
+                .apps {
+                    display: flex;
+                    li{
+                        a{
+                            img{
+                                width: 200px;
+                                padding: 10px;
+                                height: 64px;
+                            }
+                        }
+                    }
+                    
+                } 
+            }   
+        }
+}

@@ -1,0 +1,33 @@
+header{
+    grid-area: header;
+    position: relative;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+        opacity: 0.8;
+        outline: solid 7px aliceblue;;
+        outline-offset: -16px;
+    }
+
+    #hmhBoots{
+        opacity: 1;
+        color: rgb(193, 201, 167);
+        font-size: 120px;
+        position: absolute;
+        display: flex;
+        bottom: 0; 
+        padding: 12px 23px;
+        transition: all 1s ease-in-out;
+        &:hover{
+            color: rgb(124, 129, 107);;
+        } 
+        @media (min-width: 768px) and (max-width:1120px) {
+            font-size: 100px;
+        }
+        @media (max-width: 768px) {
+            font-size: 80px;
+            line-height: 1.18;
+        }   
+    }  
+}

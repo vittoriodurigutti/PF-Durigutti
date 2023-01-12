@@ -1,0 +1,89 @@
+.nav{
+    grid-area: nav ;
+    background-color: rgba(206, 206, 182, 0.89); 
+    text-transform: uppercase; font-weight: bolder;
+    border-bottom: 4px solid aliceblue ;
+    .navBtn {
+        ul {
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            li{
+                display: block;
+                &:hover{
+                    color: #4A4860;
+                    background:rgba(175, 175, 136, 0.89);
+                    box-shadow: 0px 4px 0px 0px #BB8EAC;
+                    }
+                }
+                a{
+                    text-decoration: none;
+                    color: white;
+                    border: none;
+                    padding: 15px 20px;
+                    text-align: center;
+                    display: block;
+                    font-size: 17px;
+                    transition: all .2s ease-in-out;
+                    text-transform: uppercase;
+                    letter-spacing: 5px;
+                    padding: 14px 30px;
+                    transition: all 0.8s ease
+                }
+        }
+    }
+
+    @media (max-width: 764px) {
+       display: none;
+    }
+
+}
+
+
+ /* Es como pude encontrar para que el bootstrap funcionara segun la resolucion */
+ #navBoot{
+    display: block;
+  }
+  @media (min-width:768px) {
+    #navBoot {
+      display: none;
+    }
+  }
+
+  #offcanvasDarkNavbar{
+    background-color:  rgba(206, 206, 182, 0.89);
+    text-decoration: none;
+    color: white;
+    border: none;
+    text-align: left;
+    display: block;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    transition: all 0.8s ease
+  }
+
+  .offcanvas-header{
+    margin-top: 20%;
+  }
+
+
+/* Efectos, para que simule lo mismo que el nav normal */
+#navBoot1 ul li a{
+    text-decoration: none;
+    color: white;
+    border: none;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    transition: all 0.8s ease
+}
+     
+
+#navBoot1 ul li:hover a {
+    color: #4A4860;
+background:rgba(175, 175, 136, 0.89);
+box-shadow: 0px 4px 0px 0px #BB8EAC;
+}
