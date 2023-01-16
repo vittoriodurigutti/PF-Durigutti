@@ -4,7 +4,7 @@
     justify-content: center;
     display: flex;
     .formularios {
-        border: solid 10px; border-radius: 8px; border-color: rgb(193, 201, 167);
+        border: solid 10px; border-radius: 8px; border-color: $colorPrimario;
         background-color: rgb(90, 89, 89);
         color: aliceblue;
         text-transform: uppercase;
@@ -31,7 +31,7 @@
                             "foto       video       video "
                             "sumit      sumit       sumit";
 
-        @media (max-width: 764px) {
+        @media (max-width: 780px) {
             grid-template-columns: 1fr;
             grid-template-rows: repeat(12, minmax(100px, auto));
             gap: 10px;

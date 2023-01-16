@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+$colorPrimario: rgb(193, 201, 167);
+$colorSecundario:  rgb(157, 161, 139);
+
+
 body {
     display: grid;
     grid-template-columns: 100%  ;
@@ -13,7 +17,7 @@ body {
                          "main"
                          "footer" ;
   }
-  @media (max-width: 764px) {
+  @media (max-width: 780px) {
     body {
         display: grid;
         grid-template-columns: auto auto ;

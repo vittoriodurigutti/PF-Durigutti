@@ -1,6 +1,6 @@
 .nav{
     grid-area: nav ;
-    background-color: rgba(206, 206, 182, 0.89); 
+    background-color: $colorPrimario ; 
     text-transform: uppercase; font-weight: bolder;
     border-bottom: 4px solid aliceblue ;
     .navBtn {
@@ -12,7 +12,7 @@
                 display: block;
                 &:hover{
                     color: #4A4860;
-                    background:rgba(175, 175, 136, 0.89);
+                    background:$colorSecundario;
                     box-shadow: 0px 4px 0px 0px #BB8EAC;
                     }
                 }
@@ -23,7 +23,7 @@
                     padding: 15px 20px;
                     text-align: center;
                     display: block;
-                    font-size: 17px;
+                    font-size: 14px;
                     transition: all .2s ease-in-out;
                     text-transform: uppercase;
                     letter-spacing: 5px;
@@ -44,14 +44,14 @@
  #navBoot{
     display: block;
   }
-  @media (min-width:768px) {
+  @media (min-width:780px) {
     #navBoot {
       display: none;
     }
   }
 
   #offcanvasDarkNavbar{
-    background-color:  rgba(206, 206, 182, 0.89);
+    background-color: $colorPrimario;
     text-decoration: none;
     color: white;
     border: none;
@@ -61,10 +61,6 @@
     text-transform: uppercase;
     letter-spacing: 5px;
     transition: all 0.8s ease
-  }
-
-  .offcanvas-header{
-    margin-top: 20%;
   }
 
 
@@ -84,6 +80,6 @@
 
 #navBoot1 ul li:hover a {
     color: #4A4860;
-background:rgba(175, 175, 136, 0.89);
+background:$colorSecundario;
 box-shadow: 0px 4px 0px 0px #BB8EAC;
 }
