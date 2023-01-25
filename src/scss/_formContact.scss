@@ -1,0 +1,97 @@
+.contactoForm{
+    width: 100%;
+    display: flex; 
+    text-transform: uppercase; font-weight: bolder;
+    margin-top: 100px; margin-bottom: 100px;
+    flex-wrap: wrap;  
+    justify-content:center;
+    align-self: center;
+    border-left: 2px solid; border-color: rgba(58, 54, 54, 0.315);
+    border-right: 2px solid; border-color: rgba(58, 54, 54, 0.315);
+
+    form{
+        border: solid 10px; border-radius: 8px; border-color: $colorPrimario;
+        background-image: url(https://64.media.tumblr.com/bdc1e73d6e4a9d56a8e26c4a1fbd640b/tumblr_nl7f4seGLV1qe3zw0o1_500.png);
+        background-size: cover;
+        padding: 10px;
+        display: grid;
+        width: 800px;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: "nombreCont comenCont"
+                         "numCont    comenCont"
+                         "mailCont   comenCont"
+                         "enviarCont enviarCont";
+
+                         @media (max-width: 780px){
+                            width: 80%;
+                            gap: 5px;
+                            grid-template-columns: 1fr ;
+                            grid-template-rows: 1fr 1fr 1fr 2fr 1fr;
+                            grid-template-areas:"nombreCont "
+                                                "numCont"
+                                                "mailCont"
+                                                "comenCont"
+                                                "enviarCont";
+                         }
+        label {
+            flex-direction: column;
+            display: flex;
+            color: aliceblue;
+            input, textarea {
+                border: 0;
+                border-bottom: 1px solid;
+                border-left: 1px solid;
+                border-color: aliceblue;
+                margin-top: 10px;
+                background-color: transparent;
+                
+            }
+        }
+        
+        .nombreCont {
+            grid-area: nombreCont;
+            
+        }
+        .numCont{
+            grid-area: numCont;
+        }
+        .mailCont{
+            grid-area: mailCont;
+        }
+        .comenCont{
+            grid-area: comenCont;
+        }
+        .enviarCont{
+            grid-area: enviarCont;
+            justify-self: center;
+            align-self: center;
+            border: 2px solid ;
+            border-color: aliceblue;
+            padding: 10px;
+            width: 60%;  
+            transition: all .8s ease;
+            display: flex;
+            justify-content: center;
+            input[type="submit"] {
+                border: 0PX;
+                font-size: 18px;
+                color: aliceblue;
+                text-transform: uppercase;
+                background: transparent;
+            }
+            &:hover{
+                color: black;
+                border-color: black;
+                background-color: $colorPrimario;
+            }
+            &:hover input[type="submit"]{
+                color: rgba(0, 0, 0, 0.63);
+                font-size: 24px;
+                font-weight: 300;
+            }
+
+        }
+    }
+}
